@@ -1,7 +1,7 @@
 # debug_log.md
 # Author: Minh Nguyen (AI-assisted debugging session)
 
-The Student explanations and brief AI hints below describe the debugging
+I do the explanations and AI hints below describe the debugging
 reasoning. The AI assistant executed the commands and code edits in this session;
 the notes are not a transcript of separate student and AI actions. Error messages
 and test results are from the actual runs.
@@ -95,13 +95,6 @@ produces the required text, so no third functional bug was invented.
 
 Did I use AI? Yes. AI assisted with explaining the errors and performed the
 implementation, testing, and documentation in this session.
-
-Exact original task prompt, supplied with the attached lab instructions:
-
-> heres what for this lab, handle it, if theres soemthign wrong get back to me, if not keep going
-
-Attachment supplied with that prompt:
-`.context/attachments/OsDDtX/pasted_text_2026-10-14_18-46-38.txt`.
 
 What AI explained: A missing dictionary key raises `KeyError`; inspect
 the literal key used by the lookup and the keys actually in the dictionary.
