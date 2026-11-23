@@ -41,5 +41,22 @@ used through Weeks 2–4.
 | `tree2` | Run `tree -L 2`. |
 | `mkcd NAME` | Create a directory and enter it. |
 
-Run the exercise with `python3 module02_shell_navigation/week2_script.py` from
-the repository root. The Week 4 verification tests are in `tests/`.
+Run `python3 week2_lab/week2_script.py` from this repository root.
+The Week 4 verification tests are in `tests/`.
+
+## Run the Week 4 Checks
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+ruff format . && ruff check . && pytest -v
+```
+
+## Import History
+
+This is the standalone `module02_zsh` repository for Weeks 2–4.
+It is private because Week 4 specifies a private GitHub repository.
+Relevant commits were extracted from the combined coursework repository;
+their messages and authors are preserved, but commit IDs changed.
+AI assisted with the separation and earlier documented edits.

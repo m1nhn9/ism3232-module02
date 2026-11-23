@@ -11,6 +11,6 @@ def test_string_is_lowercase():
 
 
 def test_path_segments():
-    path = "/Users/yourname/ism3232/module02_shell_navigation"
+    path = "/Users/yourname/ism3232/module02_zsh"
     parts = path.split("/")
     assert "ism3232" in parts
